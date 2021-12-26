@@ -1,0 +1,35 @@
+.catalog-to-do {
+  .content {
+    display: flex;
+  }
+  &__item {
+    display: flex;
+    margin-bottom: 7px;
+    border-bottom: 0.5px solid;
+    .item-title {
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 3px;
+      font-size: 20px;
+    }
+    .item-icon-status {}
+  
+    .item-icon-delete {
+      margin-left: auto;
+    }
+  }
+  &__item-icon {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+
+
+    &.status {
+      margin-right: 20px;
+    }
+    &.delete {
+      margin-left: auto;
+      padding: 0;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# todo_vue3_ts
+# ToDo task manager - стек Vue3 + Vuex + TypeScript + scss + localstorage
 
 ## Project setup
 ```

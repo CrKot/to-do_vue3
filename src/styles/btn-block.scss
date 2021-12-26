@@ -1,0 +1,11 @@
+.btn-block {
+  display: flex;
+  justify-content: center;
+  &__clear-complete {
+    border: 1px solid rgba(135, 25, 25, 0.5);
+  }
+  &__clear-all {
+    margin-left: 16px;
+    background-color: rgba(135, 25, 25, 0.5);
+  }
+}
