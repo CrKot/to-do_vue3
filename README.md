@@ -1,24 +1,9 @@
 # ToDo task manager - стек Vue3 + Vuex + TypeScript + scss + localstorage + Docker
 
-## Project setup
+## Project start
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+docker-compose up
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## After => [127.0.0.1:8080](http://127.0.0.1:8080)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

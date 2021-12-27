@@ -5,7 +5,7 @@ import { mutations } from "./mutation";
 export const store = createStore({
   state: {
     filter: "" as string,
-    tasks: JSON.parse(localStorage.getItem("tasks") as string),
+    tasks: JSON.parse(localStorage.getItem("tasks") as string) || [],
   },
   mutations,
   actions: {
