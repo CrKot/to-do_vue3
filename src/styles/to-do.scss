@@ -1,6 +1,6 @@
 .to-do {
   &__fieldset {
-    border: 3px solid rgba(135, 25, 25, 0.5);
+    border: 3px solid $dark-red;
     padding: 30px;
   }
   &__legend {
@@ -34,7 +34,7 @@
       margin-left: 10px;
       .btn {
         margin-left: 20px;
-        background-color: rgba(135, 25, 25, 0.5);
+        background-color: $dark-red;
         &.active {
           background-color: seagreen;
         }
@@ -48,7 +48,7 @@
     margin-bottom: 20px;
     border-radius: 10px;
     margin-left: 30px;
-    border: 1px solid rgba(135, 25, 25, 0.5);
+    border: 1px solid $dark-red;
 
     & > input {
       width: 100%;
@@ -69,5 +69,30 @@
 
   &__catalog {
     margin-bottom: 15px;
+  }
+
+  @include media-down($medium-screen) {
+    &__input {
+      width: 100%;
+      margin-left: 0;
+    }
+    &__legend {
+      font-size: 30px;
+    }
+    &__status-task {
+      .text {
+        font-size: 16px;
+        margin-right: 5px;
+      }
+      .count {
+        padding: 5px;
+      }
+      .status-btn-block {
+        margin-left: 12px;
+        .btn {
+          margin-left: 7px;
+        }
+      }
+    }
   }
 }

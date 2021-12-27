@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   &__clear-complete {
-    border: 1px solid rgba(135, 25, 25, 0.5);
+    border: 1px solid $dark-red;
   }
   &__clear-all {
     margin-left: 16px;
-    background-color: rgba(135, 25, 25, 0.5);
+    background-color: $dark-red;
   }
 }
