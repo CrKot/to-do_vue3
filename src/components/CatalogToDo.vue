@@ -17,7 +17,7 @@
           {{ task.title }}
         </div>
       </div>
-      <button @click="removeTask()" class="catalog-to-do__item-icon delete">
+      <button @click="removeTask(task.id)" class="catalog-to-do__item-icon delete">
         <img src="@/assets/icons/delete-task.svg" alt="" />
       </button>
     </div>
